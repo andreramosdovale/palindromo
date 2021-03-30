@@ -5,7 +5,7 @@ import { Button } from 'react-bootstrap'
 
 function App() {
 	const [palavra, setPalavra] = useState(); 
-	const [palindromo, setPalindromo] = useState()
+	const [palindromo, setPalindromo] = useState();
 	
 	async function handlerSubmit(event) {
 		event.preventDefault();
@@ -28,7 +28,7 @@ function App() {
 					<form onSubmit={handlerSubmit} className="margin-control">
 						<input 
 						className="input-control"
-						placeholder="digite uma palavra" 
+						placeholder="Digite uma palavra" 
 						type="text" 
 						name="palavra"
 						value={palavra}

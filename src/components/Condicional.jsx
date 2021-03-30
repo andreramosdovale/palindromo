@@ -5,7 +5,7 @@ export default function Condicional(props) {
         <div>
             <h4>A palavra "{props.palavra}"</h4>
             {
-                props.status === true ? <span>É um Palindromo</span> : <span>Não é um Palindromo</span>
+                props.status === true ? <span>É um Palíndromo</span> : <span>Não é um Palíndromo</span>
             }
         </div>
     )
