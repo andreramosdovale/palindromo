@@ -16,8 +16,8 @@ function App() {
 	}
 
 	function isPalindromo(palavra){  
-		let reversed = [...palavra].reverse().join("")
-  		return palavra === reversed
+		let reversed = [...palavra.toLowerCase()].reverse().join("")
+  		return palavra.toLowerCase() === reversed
 	}
 
 	return (
