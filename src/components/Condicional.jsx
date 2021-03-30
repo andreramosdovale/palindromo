@@ -1,6 +1,6 @@
 import React from 'react'
 
-export default function (props) {
+export default function Condicional(props) {
     return (
         <div>
             <h4>A palavra "{props.palavra}"</h4>
