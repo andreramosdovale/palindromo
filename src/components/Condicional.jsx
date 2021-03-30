@@ -1,6 +1,6 @@
 import React from 'react'
 
-export default props => {
+export default function props() {
     return (
         <div>
             <h4>A palavra "{props.palavra}"</h4>
